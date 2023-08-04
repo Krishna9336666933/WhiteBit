@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const closePopupBtn = document.getElementById('closePopupBtn');
 
   // Initially hide the popup
-  errorPopup.style.display = 'none';
+  errorPopup.style.display = 'block';
 
   showPopupBtn.addEventListener('click', () => {
     errorPopup.style.display = 'block';
   });
 
   closePopupBtn.addEventListener('click', () => {
-    errorPopup.style.display = 'none';
+    errorPopup.style.display = 'block';
   });
 });
